@@ -1,0 +1,21 @@
+{
+    "name": "root/template",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "scripts": {
+        "server":"php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Alienderson",
+            "email": "alienderson@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
